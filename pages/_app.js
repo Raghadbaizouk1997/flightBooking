@@ -8,6 +8,7 @@ import Layout from "../components/layout/Layout";
 import ErrorComponent from "../components/ErrorComponent";
 import "../styles/styles.css";
 import { AvailableFlight } from "./flight/AvailableFlight";
+import Home from "./home/home";
 
 const AuthContext = React.createContext();
 
@@ -56,7 +57,8 @@ function MyApp({ Component, pageProps, router }) {
       <AuthContext.Provider value={isAuthenticated}>
         <ToastContainer />
         {error && <ErrorComponent error={error} />}
-        <AvailableFlight />
+        <Home />
+        {/* <AvailableFlight /> */}
         {/* <Layout isHome={isHome}>
           {isLogin || isRegister ? (
             <Component

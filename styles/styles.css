@@ -101,6 +101,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+
 /*end Flex */
 .text-color-light {
   color: var(--light-blue);
@@ -110,7 +111,7 @@ button {
   color: var(--color-grey);
   font-weight: var(--font-weight);
 }
-.text-color-dark {
+.text-color-darker {
   color: var(--color-black);
 }
 .text-color-white {
@@ -393,4 +394,25 @@ label {
   border: 1px solid white;
   padding: 10px;
   border-radius: 35px;
+}
+.--group-customers {
+  background-image: url("../public/assets/img/GroupCustomer.svg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.--group-customers-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bg-back {
+  background-image: url("../public/assets/img/bg-back.svg");
+}
+.--margin-left{
+  margin-left: 10px;
+}
+.--margin-top{
+  margin-top: 10px;
 }

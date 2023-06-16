@@ -4,7 +4,7 @@ import { NavBar } from "../../components/NavBar";
 import { useTranslation } from "react-i18next";
 import { FaLanguage } from "react-icons/fa";
 import Image from "next/image";
-import { TypeTrip } from "./TypeTrip";
+import { TypeTrip } from "./typeTrip";
 import { staticData } from "../../public/data";
 import { Serve } from "./serve";
 import { GeneralSlider } from "../../components/generalSlider";
@@ -13,6 +13,8 @@ import { PackageItem } from "./packageItem";
 import { PlaceItem } from "./placeItem";
 import { useContext } from "react";
 import { FaUser } from "react-icons/fa";
+import { View } from "./view";
+import { ViewCustomers } from "./ViewCustomers";
 
 const Home = () => {
   // const isAuthenticated = useContext(AuthContext);
@@ -76,6 +78,7 @@ const Home = () => {
 
   const customSliderStyle = {
     width: "100%",
+    marginTop:'10px'
   };
   const handleLoginClick = () => {
     // Handle login navigation
@@ -99,7 +102,7 @@ const Home = () => {
               <nav className="navbar navbar-home">
                 <div className="navbar-links">
                   <a className="navbar-link" onClick={handleLoginClick}>
-                  <FaUser className="navbar-icon" />
+                    <FaUser className="navbar-icon" />
                     Sign In
                   </a>
                   <span> / </span>
@@ -117,42 +120,24 @@ const Home = () => {
               Lörem ipsum krorat ekosiv och sende anime då cringe. Detisk.
               Egonat. Diren den eftersom sojaren, men poligam.
             </p>
-            <Button text={t("Lets Start Now")} icon={<FaLanguage />} />
+            <Button
+              text={t("Lets Start Now")}
+              onClick={() => {}}
+              image="/assets/img/next.svg"
+            />
           </div>
         </div>
         <div className="--flex-around --sharing-padding">
-          <Image
-            src="/assets/img/image27.svg"
-            alt="image27"
-            width={162}
-            height={32}
-          />
-          <Image
-            src="/assets/img/image28.svg"
-            alt="image28"
-            width={162}
-            height={32}
-          />
-          <Image
-            src="/assets/img/image28.svg"
-            alt="image28"
-            width={162}
-            height={32}
-          />
-          <Image
-            src="/assets/img/image29.svg"
-            alt="image29"
-            width={162}
-            height={32}
-          />
-          <Image
-            src="/assets/img/image31.svg"
-            alt="image31"
-            width={162}
-            height={32}
-          />
+          {staticData.company.map((item) => (
+            <Image
+              src={item.src}
+              alt={item.alt}
+              width={item.width}
+              height={item.height}
+            />
+          ))}
         </div>
-        <div className="--type-trip-container --padding">
+        <div className="--type-trip-container --padding ">
           <div style={{ flexBasis: "50%" }}>
             <Image
               src="/assets/img/experience.svg"
@@ -160,7 +145,7 @@ const Home = () => {
               width={470}
               height={270}
             />
-            <h1 className="text-color-dark --font-weight-bold --title-line-height">
+            <h1 className="text-color-darker --font-weight-bold --title-line-height">
               {t("Get Experience In We are Expert")}
             </h1>
             <p className="text-color-dark --desc-line-height">
@@ -179,7 +164,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div className="--padding serve-section --flex-between">
+        <div className="--padding serve-section --flex-between bg-back">
           <div style={{ flexBasis: "50%" }}>
             <Image
               src="/assets/img/Traveller.svg"
@@ -189,7 +174,7 @@ const Home = () => {
             />
           </div>
           <div style={{ flexBasis: "50%" }}>
-            <h1 className="text-color-dark --font-weight-bold --title-line-height">
+            <h1 className="text-color-darker --font-weight-bold --title-line-height">
               {t("With Our Experience We will Serve You")}
             </h1>
             <p className="text-color-dark --desc-line-height">
@@ -212,28 +197,33 @@ const Home = () => {
             childComponent={<PlaceItem />}
           />
           <div>
-            <h1 className="text-color-dark --font-weight-bold --title-line-height">
+            <h1 className="text-color-darker --font-weight-bold --title-line-height">
               {t("Best Places For You")}
             </h1>
             <p className="text-color-dark --desc-line-height">
               Lörem ipsum krorat ekosiv och sende anime då cringe. Detisk.
               Egonat. Diren den eftersom sojaren, men poligam.
             </p>
-            <Button text={t("View More")} icon={<FaLanguage />} />
+            <Button
+              text={t("View More")}
+              onClick={() => {}}
+              image="/assets/img/next.svg"
+            />
           </div>
         </div>
-        <div className="--padding ">
+        <div className="--padding bg-back">
           <div className="--align-center">
-            <h1 className="text-color-dark --font-weight-bold --title-line-height">
+            
+            <h1 className="text-color-darker --font-weight-bold --title-line-height" style={{ flexBasis: "30%" }}>
               Best Packages For You
             </h1>
-            <p>
+            <p style={{ flexBasis: "40%" }}>
               {" "}
               Lörem ipsum krorat ekosiv och sende anime då cringe. Detisk.
               Egonat. Diren den eftersom sojaren, men poligam.
             </p>
           </div>
-          <div className="--align-center">
+          <div className="--align-center" style={{ flexBasis: "30%" }}>
             <GeneralSlider
               settings={DataPackageSettings}
               places={staticData.DataPackages}
@@ -243,6 +233,12 @@ const Home = () => {
               childComponent={<PackageItem />}
             />
           </div>
+        </div>
+        <div className="--padding">
+          <View />
+        </div>
+        <div className="--padding bg-back">
+          <ViewCustomers />
         </div>
       </div>
       {/* ) : (

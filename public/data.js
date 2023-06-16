@@ -24,7 +24,7 @@ export const staticData = {
       title: "Car Rental",
       description:
         "Hit the road with ease and convenience with our car rental service.",
-        img: "/assets/img/Vector-2.svg",
+      img: "/assets/img/Vector-2.svg",
     },
 
     {
@@ -32,7 +32,7 @@ export const staticData = {
       title: "Business",
       description:
         "Indulge in the ultimate luxury of private travel with our charter booking service.",
-        img: "/assets/img/Vector-3.svg",
+      img: "/assets/img/Vector-3.svg",
     },
   ],
   ServeNumber: [
@@ -62,132 +62,217 @@ export const staticData = {
     {
       id: 1,
       name: "Burj Khalifa",
-      price:'$234',
+      price: "$234",
       img: "/assets/img/Image 1.svg",
     },
     {
       id: 2,
       name: "Queen’s Gambit",
-      price:'$234',
+      price: "$234",
       img: "/assets/img/Package 4-1.svg",
     },
     {
       id: 3,
       name: "Beyond the Blues",
-      price:'$234',
+      price: "$234",
       img: "/assets/img/Package 4.svg",
     },
     {
       id: 1,
       name: "Burj Khalifa",
-      price:'$234',
+      price: "$234",
       img: "/assets/img/Image 1.svg",
     },
     {
       id: 2,
       name: "Queen’s Gambit",
-      price:'$234',
+      price: "$234",
       img: "/assets/img/Package 4-1.svg",
     },
     {
       id: 3,
       name: "Beyond the Blues",
-      price:'$234',
+      price: "$234",
       img: "/assets/img/Package 4.svg",
     },
-
-    
   ],
   DataPackages: [
     {
       id: 1,
-      title:'Entrance Gate in Istanbul',
-      img:'/assets/img/package-1.svg',
+      title: "Entrance Gate in Istanbul",
+      img: "/assets/img/package-1.svg",
       country: "Turkey",
-      calender:'4D/3N ',
+      calender: "4D/3N ",
       number: "5",
-      numberReviews:'250k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'4.0'
+      numberReviews: "250k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "4.0",
     },
     {
       id: 2,
-      title:'Plaza de espana in seville',
-      img:'/assets/img/package-2.svg',
+      title: "Plaza de espana in seville",
+      img: "/assets/img/package-2.svg",
       country: "Spain",
-      calender:'4D/3N',
+      calender: "4D/3N",
       number: "8",
-      numberReviews:'1.3k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'2.7'
+      numberReviews: "1.3k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "2.7",
     },
     {
       id: 3,
-      title:'Tower Bridge in London',
-      img:'/assets/img/package-3.svg',
+      title: "Tower Bridge in London",
+      img: "/assets/img/package-3.svg",
       country: "UK",
-      calender:'4D/3N',
+      calender: "4D/3N",
       number: "12",
-      numberReviews:'1.3k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'5'
+      numberReviews: "1.3k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "5",
     },
     {
       id: 4,
-      title:'Taj Mahal building in Agra',
-      img:'/assets/img/package-4.svg',
+      title: "Taj Mahal building in Agra",
+      img: "/assets/img/package-4.svg",
       country: "India",
-      calender:'4D/3N',
+      calender: "4D/3N",
       number: "24",
-      numberReviews:'1.3k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'1'
+      numberReviews: "1.3k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "1",
     },
     {
       id: 1,
-      title:'Entrance Gate in Istanbul',
-      img:'/assets/img/package-1.svg',
+      title: "Entrance Gate in Istanbul",
+      img: "/assets/img/package-1.svg",
       country: "Turkey",
-      calender:'4D/3N ',
+      calender: "4D/3N ",
       number: "5",
-      numberReviews:'250k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'4.0'
+      numberReviews: "250k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "4.0",
     },
     {
       id: 2,
-      title:'Plaza de espana in seville',
-      img:'/assets/img/package-2.svg',
+      title: "Plaza de espana in seville",
+      img: "/assets/img/package-2.svg",
       country: "Spain",
-      calender:'4D/3N',
+      calender: "4D/3N",
       number: "8",
-      numberReviews:'1.3k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'2.7'
+      numberReviews: "1.3k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "2.7",
     },
     {
       id: 3,
-      title:'Tower Bridge in London',
-      img:'/assets/img/package-3.svg',
+      title: "Tower Bridge in London",
+      img: "/assets/img/package-3.svg",
       country: "UK",
-      calender:'4D/3N',
+      calender: "4D/3N",
       number: "12",
-      numberReviews:'1.3k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'5'
+      numberReviews: "1.3k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "5",
     },
     {
       id: 4,
-      title:'Taj Mahal building in Agra',
-      img:'/assets/img/package-4.svg',
+      title: "Taj Mahal building in Agra",
+      img: "/assets/img/package-4.svg",
       country: "India",
-      calender:'4D/3N',
+      calender: "4D/3N",
       number: "24",
-      numberReviews:'1.3k',
-      desc:'Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.',
-      rating:'1'
+      numberReviews: "1.3k",
+      desc: "Lörem ipsum mänement semiosmos. Infrafikuliga regiligt. Timysat. Tinade benyrade. Suprangar kror semiliga tragt.",
+      rating: "1",
     },
-    
+  ],
+
+  images: [
+    {
+      src: "/assets/img/calender-2.svg",
+      alt: "Calendar 1",
+      width: 259,
+      height: 387,
+    },
+    {
+      src: "/assets/img/calender-2.svg",
+      alt: "Calendar 2",
+      width: 259,
+      height: 387,
+    },
+    {
+      src: "/assets/img/calender-2.svg",
+      alt: "Calendar 3",
+      width: 259,
+      height: 387,
+    },
+  ],
+  company: [
+    {
+      id:1,
+      src: "/assets/img/image27.svg",
+      alt:'image27',
+      width:162,
+      height:32
+    },
+    {
+      id:2,
+      src: "/assets/img/image28.svg",
+      alt:'image27',
+      width:162,
+      height:32
+    },
+    {
+      id:3,
+      src:"/assets/img/image28.svg",
+      alt:'image27',
+      width:162,
+      height:32
+    },
+    {
+      id:4,
+      src: "/assets/img/image29.svg",
+      alt:'image27',
+      width:162,
+      height:32
+    },
+    {
+      id:5,
+      src: "/assets/img/image31.svg",
+      alt:'image27',
+      width:162,
+      height:32
+    },
+
+
+  ],
+  ViewCustomers: [
+    {
+      id:'1',
+      src: "/assets/img/customer.svg",
+      alt: "Calendar 1",
+      type: 'Travel Guide',
+      name:'Amina Rayess',
+      rating: 5,
+    },
+    {
+      id:'1',
+      src: "/assets/img/customer.svg",
+      alt: "Calendar 1",
+      type: 'customer',
+      name:'Amina Rayess2',
+      rating: 5,
+    },
+    {
+      id:'1',
+      src: "/assets/img/customer.svg",
+      alt: "Calendar 1",
+      type: 'Travel Guide',
+      name:'Amina Rayess3',
+      rating: 5,
+    },
+
+
   ],
 };
 

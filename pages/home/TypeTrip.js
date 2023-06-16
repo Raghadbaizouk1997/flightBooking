@@ -26,7 +26,7 @@ export const TypeTrip = ({img, title, description}) => {
   };
 
   const lineStyle = {
-    width: "100%",
+    width: "60%",
     height: "1px",
     backgroundColor: "#E1EDF2",
     marginTop: "10px",

@@ -65,23 +65,30 @@ export const PackageItem = ({
           <HeartIcon />
         </div>
       </div>
-      <h3>{title}</h3>
-      <PackageItemIcon country={country} calender={calender} number={number} />
+      <h3 className="--margin-top">{title}</h3>
+      <PackageItemIcon
+        country={country}
+        calender={calender}
+        number={`people: ${number}`}
+      />
       <div>
         {Array.from({ length: 5 }).map((_, index) => (
           <FaStar
             key={index}
             className="star"
-            style={{ color: index < selectedRating ? "gold" : "#ddd" }}
+            style={{
+              color: index < selectedRating ? "gold" : "#ddd",
+              marginTop: "10px",
+            }}
             onClick={() => handleStarClick(index)}
           />
         ))}
         <span>{rating}</span>
-        <span>({viewerCount} viewers)</span>
+        <span className="text-color-dark">({viewerCount} viewers)</span>
       </div>
-      <p>{desc}</p>
+      <p className="--margin-top text-color-dark">{desc}</p>
 
-      <Button text='Book Now' />
+      <Button text="Book Now" />
     </div>
   );
 };

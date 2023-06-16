@@ -11,12 +11,15 @@ export const Serve = ({number, text}) => {
     borderLeft: "1.5px solid #E1EDF2",
     marginLeft: "20px",
   };
+  const desc = {
+    width: "70%",
+  };
   return (
 
-    <div className="--align-center">
+    <div className="--align-center --margin-left">
       <div>
         <h1 style={KNumber}>{number}</h1>
-        <p className="text-color-dark --desc-line-height">{text}</p>
+        <p className="text-color-dark --desc-line-height" style={desc}>{text}</p>
       </div>
       <div style={lineLeftStyle}></div>
     </div>

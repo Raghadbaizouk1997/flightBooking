@@ -1,6 +1,7 @@
 import React from "react";
+import Image from "next/image";
 
-export const Button = ({ text, onClick, disabled, type }) => {
+export const Button = ({ text, onClick, disabled, type, image }) => {
   const buttonStyle = {
     backgroundColor: "var(--light-blue)",
     color: "var(--color-white)",
@@ -8,13 +9,23 @@ export const Button = ({ text, onClick, disabled, type }) => {
     borderRadius: "30px",
     cursor: "pointer",
     fontWeight: "600",
-    marginTop:'10px'
-    // lineHeight: '88px'
+    marginTop: "10px",
   };
 
   return (
-    <button style={buttonStyle} onClick={onClick} disabled={disabled} type={type}>
+    <button
+      style={buttonStyle}
+      onClick={onClick}
+      disabled={disabled}
+      type={type}
+      className="--flex-dir-column gap-15"
+    >
       {text}
+      {image && (
+        <div style={{ display: "inline-block", marginRight: "8px" }}>
+          <Image src={image} alt="Button Icon" width={20} height={20} />
+        </div>
+      )}
     </button>
   );
 };
