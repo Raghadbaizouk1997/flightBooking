@@ -1,0 +1,396 @@
+/* Import Montserrat font with different weights */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --dark-blue: #0a1930;
+  --light-blue: #1a97d4;
+
+  --color-white: #fff;
+  --color-dark: #333;
+  --color-black: #031017;
+
+  --color-grey: #5c6366;
+  --color-stroke: #e1edf2;
+  --box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.07);
+  --background-color: rgba(255, 255, 255, 0.7);
+
+  --font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+html {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+}
+/*start Flex */
+.--flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.--flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.--flex-between-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.--flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.--flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.--dir-column {
+  flex-direction: column;
+}
+
+.--flex-dir-column {
+  display: flex;
+}
+
+.--align-center {
+  display: flex;
+  align-items: center;
+}
+.--align-start {
+  display: flex;
+  align-items: start;
+}
+
+.gap-15 {
+  gap: 10px;
+}
+
+.--padding {
+  padding: 60px;
+}
+.main-position {
+  background-image: url("../public/assets/img/backgound.svg");
+  height: calc(100vh - 220px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*end Flex */
+.text-color-light {
+  color: var(--light-blue);
+  font-weight: var(--font-weight);
+}
+.text-color-dark {
+  color: var(--color-grey);
+  font-weight: var(--font-weight);
+}
+.text-color-dark {
+  color: var(--color-black);
+}
+.text-color-white {
+  color: var(--color-white);
+}
+.--font-navbar {
+  font-weight: 500;
+}
+.--font-weight-bold {
+  font-weight: 700;
+}
+.--font-weight-med {
+  font-weight: 600;
+}
+.--font-weight-normal {
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* padding: 0 30px; */
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.--sharing-padding {
+  padding: 60px;
+}
+/** start Footer*/
+.footer-container {
+  padding: 0 60px;
+  width: 100%;
+  height: 60px;
+  box-shadow: var(--box-shadow);
+}
+.header-container {
+  padding: 0 60px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 60px;
+  box-shadow: var(--box-shadow);
+}
+
+.footer-contact {
+  padding: 0 60px;
+  height: 100px;
+  width: 100%;
+  background-color: var(--light-blue);
+}
+/** end Footer*/
+.--login-button {
+  border: 1px solid var(--color-stroke);
+  padding: 10px;
+  border-radius: 24px;
+  margin-left: 10px;
+}
+
+.--box-login {
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.07);
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  padding: 40px 70px;
+}
+
+.--box-input {
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+
+.top-home-section {
+  background-image: url("../public/assets/img/backgrounHome.svg");
+  background-size: cover;
+  width: 100vw;
+  background-repeat: no-repeat;
+  height: 842px;
+  padding: 20px 60px;
+}
+
+/* start Available Flight*/
+.avialable-flight-section {
+  position: relative; /* Ensure the pseudo-element is positioned relative to this div */
+  background-image: url("../public/assets/img/travel-flight.svg");
+  background-size: cover;
+  width: 100vw;
+  background-repeat: no-repeat;
+  height: 290px;
+  padding: 0 60px;
+}
+
+.avialable-flight-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.avialable-flight-section h1,
+.avialable-flight-section span {
+  position: relative;
+  z-index: 1;
+  color: var(--color-white);
+  text-align: center;
+}
+.avialable-flight-section .available-section {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.home-divider {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-white);
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+--box-search-flight input {
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  padding: 5px;
+}
+
+.input-field {
+  border: none;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+  padding: 5px;
+  width: 200px;
+}
+
+.--box-search-flight {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: var(--box-shadow);
+  width: 80%;
+  height: 177px;
+  background-color: var(--color-white);
+  border-radius: 30px;
+}
+
+.card-flight-container {
+  position: relative;
+}
+
+.card-parent {
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 260px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.price-flight {
+  color: var(--light-blue);
+  font-weight: 700;
+}
+
+.plane-section {
+  background-image: url("../public/assets/img/Vector-line.svg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+/* end Available Flight*/
+
+.avialable-flight-section h1 {
+  color: white;
+}
+
+.title-home {
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.title-home h1,
+.title-home h6 {
+  color: var(--color-white);
+}
+.title-home h1 {
+  color: var(--color-white);
+  font-weight: 700;
+  line-height: 88px;
+}
+
+.title-home h6 {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.title-home p {
+  margin-top: 20px;
+  color: var(--color-grey);
+  font-style: italic;
+  line-height: 28px;
+}
+
+.--type-trip-container {
+  display: flex;
+}
+.--title-line-height {
+  line-height: 54px;
+}
+.--desc-line-height {
+  line-height: 28px;
+}
+
+.slick-prev::before {
+  color: #1a97d4 !important;
+  font-size: 30px !important;
+}
+.slick-next::before {
+  display: none;
+}
+.slick-arrow.slick-next1,
+.slick-arrow.slick-prev1 {
+  background-color: var(--light-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--color-white);
+  font-size: 15px;
+  position: absolute;
+  top: -50px;
+}
+.slick-arrow.slick-next1 {
+  right: 10%;
+}
+.slick-arrow.slick-prev1 {
+  right: 15%;
+}
+
+.login-container {
+  background-color: white;
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.07);
+  width: 35%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px 30px;
+}
+
+.login-container input {
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid var(--color-stroke);
+  padding-left: 15px;
+  color: #a1adb2;
+}
+
+.navbar-home {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 35px;
+}

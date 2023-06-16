@@ -1,0 +1,1617 @@
+{
+    "status": true,
+    "message": "flight data is successful",
+    "data": {
+      "session_id": "MTY4Njg5OTAyN180MDA3MDE=",
+      "flights": [
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "aEhqWnJJRUdYeGZ1dTBhbWNqUmJBTmpJeEptN1lKZFVQbDZ4SEh2YVlFZmZBMlptU2QxSGxYV3hVMURHYXhOL3R0VkJHN01PZlJTTDdybmo5bnZkT0VLWENWU252Zy80NEgzazVqMXVZcHdFWTZDQUQ4QU51VUpJYy9vQm0zM3JBVWRMcC9jN2RnNWt0clVlYzRRSi9BPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "161",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T05:00:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T07:30:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "166",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T13:45:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T16:00:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "614",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T16:45:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-22T20:50:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "ZHl6cE9OdFQ4Z1BxZFdid1JyRHFyNFhmVzZJblZVSGpEblRDUHFKbU1sY2lkTFVSVENtdFFqRGxLZkNIM1NncFB2SVFVNXMvVHdLK2JCY0N5cmhlRTRKODlUVDJtQnlXL1pQaFRpMGhQM09DOVdsT0s3Mkpxc2dzbHg1d0RRYkIwZXRweVhsUmRDc2FPME8rWElJblBnPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "161",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T05:00:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T07:30:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "168",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T20:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T22:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "612",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T23:30:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T03:35:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "WHZWNkJCVFRiODlCZC9hSnlsZWlLeldrWjVoaGppQ2VGM3IvMVJoWkQ1OXd0ZEFRK0NMT01jcWQrUGhXSkFaTnIrQ1RSRWg3ZUNvSjFubEtFNHRXNzNkVFVhWXhtbENTOGJnZjVXUEZ0KzJaZitodk5HZnU2VUNtV1VhYUUzRUVJQ0ZOTVFsS0EwRjFUc0V1ekw1WGhnPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "168",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T20:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T22:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "612",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T23:30:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T03:35:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "b00wNlYwL25RWnZJLytoTmFJNUgvaDdjTmU3WEMxdkl5SzlOQTNtbUswdHFsN2c0WnNiZXBjeE0zS1NCVi9WdzZOWmdOQ2txK0c4ZFNuSHV2MFh1MWRRN05rUCtMM0NBUGlsaGZlaE8rVWV6d1NBWGh6M2lMaTZnd0pXdHE1TVlWUld0ZGFObEZMZjhBNXNlT3YvODVBPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "168",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T20:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T22:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "610",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-23T08:00:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T12:05:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "WDU2RituWHdCTDFTcjhrdzNlKzIrbmdodjFISkUvSGVPSHIzM0F2dEVkcGJ5TVVyVjlweEtrbzljSlFZc3N1eDN5S0g4SndraDRrQy9oVkVLUk1ZakZENHBQWEwxY25nZ0x1UjN6SnFnZEhvd3JBcUZIVXZBdWxTME01N0N5ckd3djdKZC9ob25SeFczSHBaNFJDUnJBPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "166",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T13:45:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T16:00:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "614",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T16:45:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-22T20:50:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "ako1OXNkRjJ2cWJTUEs3WjFXbE8vaytwZTdqZXVCeTZNbmY0QWFtRFFvemZHVnlZamNvdzVaTllLekNNaW01bTBUbk1mdzdINENHenhUMVFLTWl1N2JOZUJzVm5xNisybmpRM01oZFlrbU9aNDY4NlBBTlUrcjV3VnV0Vk80ZGdOQm43bDRCV0lrMVFLTkN2SXZHWVhnPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "166",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T13:45:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T16:00:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "612",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T23:30:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T03:35:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "aUV4WjNIOWtZdXZsN01FWW9MdkFlTGFQeVhCSm1wQWNHRmpkZ1FxcU44V0dkNERkaTIyWVR6bnRiKzA5R2lhUDNPMEpjYkZXWnh4V1RwdjJqQWZBbHNyWTU2VUwvb1ZFNHlYRm10VHlKVWFXS1FkYm1IdVNMTDVsTnJyUThBekFNeGplczFDN3pVMGxJYjFjOXNuOFNnPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "164",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T21:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T23:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "610",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-23T08:00:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T12:05:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "b29reitOWTE0YXpxdDNpdWg4MklPaVVYbVdIN0hTbHJFbW9aSEd6TGdJVENjRVpUZXlETzR2QjhBc2dDYlFQajN2UVFPeW56ZDlZdFRGK0dMVmhrNkpKWHIrT3ljcllkMXQrRjJWY3I5cGRsUEU2T3diMjZzaVdXUmhtTExPL3gyZy81YmVNYjBCQWRLUlNXS0ZmbU9BPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "162",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T10:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "614",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T16:45:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-22T20:50:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "OWF2WkxNQ1dmRlF2Qm1KVUtoME04VlVYNnZ5NVFHeW85WjhWYzczWTJjcGljT2ZPRFJaSWVuUUtTRnVxWkZXdjVlbjVkRE54TUQ1T2V1R3JnSGdmZHlkQit6c2RJU0t5SWNmazk2QVRNL2RPbEsweXBHZ1ozR2xtbHZTSXd1a0JrWVo3aS9rdUQ0d1NEdTByaXpyMDZRPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "165",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T10:15:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "162",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T10:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T12:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "612",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-22T23:30:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T03:35:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        },
+        {
+          "ticketType": "eTicket",
+          "IsPassportMandatory": null,
+          "sourceCode": "QndxMHppdVJnWTl5NGpWeGxueXVWNXhlNnA0Ym51T3VUR0xycUFVeUhrL3lMd3dLWjhvNjZqWjJjKy9uTzk5S2lYRmtudXJOaG8xNUl5SzVQNXBwd3A0SkFoeHhlN1BXS0F4cHBJajdENHNDUmdQOGFUWks3TEwwbE1zY0JXR3pIcEVvaDVnNnM5MVAwbTk2K3I4Wm5BPT0=",
+          "FareType": "Private",
+          "IsRefundable": "No",
+          "type": "Return",
+          "passengers": [
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Adult",
+              "Quantity": 2,
+              "price_Base": "224.76 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "307.31 USD",
+              "price_Total": "532.08 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "120.26 USD"
+            },
+            {
+              "Baggage": [
+                "1PC",
+                "1PC",
+                "1PC",
+                "1PC"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Child",
+              "Quantity": 3,
+              "price_Base": "262.64 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "459.62 USD",
+              "price_Total": "722.27 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "90.18 USD"
+            },
+            {
+              "Baggage": [
+                "10KG",
+                "10KG",
+                "10KG",
+                "10KG"
+              ],
+              "CabinBaggage": [
+                "SB",
+                "SB",
+                "SB",
+                "SB"
+              ],
+              "Type": "Infant",
+              "Quantity": 1,
+              "price_Base": "17.29 USD",
+              "price_Service": "0.00 USD",
+              "price_Surcharges": "0.00 USD",
+              "price_Taxes": "16.01 USD",
+              "price_Total": "33.29 USD",
+              "RefundAllowed": false,
+              "RefundPenaltyAmount": "0.00 USD",
+              "ChangeAllowed": true,
+              "ChangePenaltyAmount": "12.02 USD"
+            }
+          ],
+          "tours": [
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "615",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "DXB",
+                  "DepartureDateTime": "2023-06-16T21:50:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-17T00:20:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "210",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "161",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-17T05:00:00",
+                  "ArrivalAirportCode": "IST",
+                  "ArrivalDateTime": "2023-06-17T07:30:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "150",
+                  "CabinClassText": ""
+                }
+              ]
+            },
+            {
+              "TotalStops": 1,
+              "tourSegments": [
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "168",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "IST",
+                  "DepartureDateTime": "2023-06-22T20:30:00",
+                  "ArrivalAirportCode": "AMM",
+                  "ArrivalDateTime": "2023-06-22T22:45:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "135",
+                  "CabinClassText": ""
+                },
+                {
+                  "SeatsRemaining": 9,
+                  "FlightNumber": "610",
+                  "AirlineCode": "RJ",
+                  "AirlineName": "Royal Jordanian Airline",
+                  "DepartureAirportCode": "AMM",
+                  "DepartureDateTime": "2023-06-23T08:00:00",
+                  "ArrivalAirportCode": "DXB",
+                  "ArrivalDateTime": "2023-06-23T12:05:00",
+                  "CabinClassCode": "Y",
+                  "JourneyDuration": "185",
+                  "CabinClassText": ""
+                }
+              ]
+            }
+          ],
+          "fareTotal": {
+            "Basic": "504.69 USD",
+            "ServiceTax": "0.00 USD",
+            "TotalTax": "782.94 USD",
+            "Total": "1287.64 USD"
+          }
+        }
+      ],
+      "pagination_details": {
+        "currentPage": 1,
+        "totalPages": 14,
+        "countInPage": 10,
+        "total": 140,
+        "hasPreviousPage": false,
+        "hasNextPage": true,
+        "first": 0
+      },
+      "filterCategories": {
+        "fare_type": [
+          "Private",
+          "Public",
+          "WebFare"
+        ],
+        "price": [
+          1287.64,
+          19280.75
+        ],
+        "stops_departure": [
+          0,
+          1
+        ],
+        "stops_return": [
+          0,
+          1
+        ],
+        "duration_departure": [
+          275,
+          610
+        ],
+        "duration_return": [
+          265,
+          590
+        ],
+        "airline_departure": [
+          "Royal Jordanian Airline",
+          "Flydubai",
+          "Gulf Air",
+          "Oman Air",
+          "Emirates",
+          "Qatar Airways",
+          "Kuwait Airways",
+          "Ethiopian Airlines",
+          "Egyptair"
+        ],
+        "airline_return": [
+          "Royal Jordanian Airline",
+          "Flydubai",
+          "Gulf Air",
+          "Oman Air",
+          "Emirates",
+          "Qatar Airways",
+          "Kuwait Airways",
+          "Ethiopian Airlines",
+          "Deutsche Lufthansa"
+        ]
+      }
+    }
+  }
